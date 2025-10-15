@@ -14,8 +14,8 @@ def main():
     n = 1000
     for i in range(n):
         x = (2 * math.pi * i) / n
-        sine_instance = Sine(x)
-        print(f"x: {x:.5f}, sin(x): {sine_instance.tabulate():.5f}, n: {i}")
+        sine_table = Sine(x)
+        print(f"x: {x:.5f}, sin(x): {sine_table.tabulate():.5f}, n: {i}")
     
 
 if __name__ == "__main__":
